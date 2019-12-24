@@ -153,19 +153,28 @@
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-html5" data-toggle="tooltip" data-placement="bottom" title="HTML"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-css3-alt" data-toggle="tooltip" data-placement="bottom" title="CSS"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
+            <i class="fab fa-js-square" data-toggle="tooltip" data-placement="bottom" title="JavaScript"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
+            <i class="fab fa-node-js" data-toggle="tooltip" data-placement="bottom" title="Node.js"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-java"></i>
+            <i class="fab fa-java" data-toggle="tooltip" data-placement="bottom" title="Java"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="Git"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-python" data-toggle="tooltip" data-placement="bottom" title="Python"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-database" data-toggle="tooltip" data-placement="bottom" title="SQL"></i>
           </li>
         </ul>
 
@@ -186,6 +195,12 @@
         </ul>
       </div>
     </section>
+
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
 
     <hr class="m-0">
 
