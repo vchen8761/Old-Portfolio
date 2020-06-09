@@ -1,1 +1,2 @@
-# vchen8761.github.io
+# Preliminary Personal Portfolio 
+I plan to rebuilt my porfolio using react.js and Django.
